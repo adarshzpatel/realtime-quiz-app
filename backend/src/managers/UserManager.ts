@@ -38,6 +38,10 @@ export class UserManager {
         state: this.quizManager.getCurrentState,
       });
 
+      socket.on("createQuiz",data=>{
+        this.quizManager.addQuiz(data.roomId)
+      })
+
       socket.on("createProblem", (data) => {
         this.quizManager.addProblem(data.roomId, data.problem);
       });

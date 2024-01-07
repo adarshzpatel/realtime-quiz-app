@@ -1,0 +1,19 @@
+{
+  "name": "realtime-quiz-app",
+  "version": "1.0.0",
+  "description": "# Features",
+  "main": "y",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adarshzpatel/realtime-quiz-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adarshzpatel/realtime-quiz-app/issues"
+  },
+  "homepage": "https://github.com/adarshzpatel/realtime-quiz-app#readme"
+}
